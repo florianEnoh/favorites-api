@@ -14,6 +14,16 @@ function createServer(){
     }
   });
 
+  server.route({
+    method: 'POST',
+    path: '/messages',
+    handler: function(request,reply){
+      reply('request')
+      .created('/messages/1');
+      //console.log(request);
+    }
+  });
+
   return server;
 }
 
