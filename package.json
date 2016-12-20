@@ -1,0 +1,16 @@
+{
+  "name": "microblog",
+  "version": "1.0.0",
+  "description": "A microblmog Api Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": [
+    "api",
+    "skool",
+    "microblog"
+  ],
+  "author": "Flo",
+  "license": "ISC"
+}
