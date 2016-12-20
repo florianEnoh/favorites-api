@@ -12,5 +12,12 @@
     "microblog"
   ],
   "author": "Flo",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "supertest": "^2.0.1"
+  },
+  "dependencies": {
+    "hapi": "^16.0.2"
+  }
 }
