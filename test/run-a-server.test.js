@@ -1,6 +1,7 @@
 
 const supertest = require('supertest');
 const createServer = require('../index').createServer;
+
 describe('GET /', function(){
 	let server;
 	beforeEach(function(){

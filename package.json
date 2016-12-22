@@ -4,7 +4,8 @@
   "description": "A microblmog Api Node.js",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test"
+    "test": "mocha test",
+    "start": "node bin/microblog.js"
   },
   "keywords": [
     "api",
@@ -14,10 +15,17 @@
   "author": "Flo",
   "license": "ISC",
   "devDependencies": {
+    "assert": "^1.4.1",
+    "fs": "0.0.1-security",
     "mocha": "^3.2.0",
+    "shortid": "^2.2.6",
     "supertest": "^2.0.1"
   },
   "dependencies": {
-    "hapi": "^16.0.2"
+    "hapi": "^16.0.2",
+    "hapi-swagger": "^7.5.0",
+    "inert": "^4.0.3",
+    "joi": "^10.0.6",
+    "vision": "^4.1.1"
   }
 }
